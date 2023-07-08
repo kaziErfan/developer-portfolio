@@ -46,4 +46,8 @@ nav a{
 }
 .banner{
     padding: 30px 30px 30px 226px;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 584px;
 }
