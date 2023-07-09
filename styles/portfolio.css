@@ -68,9 +68,9 @@ nav a {
 /* header related css */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, 30px ;
 }
 
 .banner {
@@ -241,4 +241,7 @@ textarea {
     background: #FFF;
     color: #757575;
     border: 0;
+}
+.social-links a{
+    margin-right: 24px;
 }
