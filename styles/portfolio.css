@@ -23,15 +23,18 @@ body {
     color: #181818;
     text-align: center;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
     text-align: center;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
+
 /* Navbar related CSS */
 .nav-title {
     font-size: 45px;
@@ -102,10 +105,11 @@ nav a {
 }
 
 /* main related css */
-    main{
-        max-width: 1140px;
-        margin: 80px auto;
-    }
+main {
+    max-width: 1140px;
+    margin: 80px auto;
+}
+
 /* About section css */
 .about {
     border-radius: 10px;
@@ -113,20 +117,24 @@ nav a {
     padding: 80px 150px;
 
 }
-.info-container{
+
+.info-container {
     display: flex;
     justify-content: space-around;
 }
-.info-title{
+
+.info-title {
     margin: 5px;
     font-size: 20px;
     font-weight: 400;
     color: #757575;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-.info-description{
+
+.info-description {
     font-size: 20px;
     color: #474747;
     font-weight: 700;
@@ -134,29 +142,41 @@ nav a {
 
 /* What I do section */
 
-#what-i-do-description{
+#what-i-do-description {
     padding: 10px 150px;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     gap: 24px;
     margin-top: 50px;
-    
+
 }
-.skill{
+
+.skill {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
 }
-.skill-title{
+
+.skill-title {
     font-size: 20px;
     font-weight: 700;
     color: #181818;
 }
-.skill-description{
+
+.skill-description {
     font-size: 16px;
     font-weight: 400;
     color: #757575;
     line-height: 28px;
+}
+
+/* Resume Section Css */
+.resume-col-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
