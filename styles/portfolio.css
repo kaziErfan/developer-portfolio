@@ -133,3 +133,11 @@ nav a {
 #what-i-do-description{
     padding: 10px 150px;
 }
+.skill-container{
+    display: flex;
+    
+}
+.skill{
+    gap: 24px;
+    padding: 30px;
+}
