@@ -29,7 +29,9 @@ body {
     color: #757575;
     text-align: center;
 }
-
+main section{
+    margin-top: 130px;
+}
 /* Navbar related CSS */
 .nav-title {
     font-size: 45px;
@@ -108,7 +110,8 @@ nav a {
 .about {
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 100px 150px;
+    padding: 80px 150px;
+
 }
 .info-container{
     display: flex;
@@ -130,14 +133,30 @@ nav a {
 }
 
 /* What I do section */
+
 #what-i-do-description{
     padding: 10px 150px;
 }
 .skill-container{
     display: flex;
+    gap: 24px;
+    margin-top: 50px;
     
 }
 .skill{
-    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
 }
