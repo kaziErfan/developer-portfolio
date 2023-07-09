@@ -1,11 +1,13 @@
-/* Shared CSS */
-body{
+/* Shared Common CSS */
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -15,60 +17,93 @@ body{
     padding: 18px 35px;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    text-align: center;
+}
+
 /* Navbar related CSS */
-.nav-title{
+.nav-title {
     font-size: 45px;
     font-weight: 800;
     color: #181818;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 226px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
-nav li{
+
+nav li {
     margin-right: 50px;
     list-style: none;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related css */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0 226px;
     display: flex;
+    justify-content: space-between;
 }
-.banner .profile-pic{
-    width: 584px;
+
+.banner-content {
+    max-width: 550px;
 }
-.banner-greet{
+
+.banner-greet {
     font-size: 45px;
     color: #474747;
     font-weight: 600;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     color: #181818;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+}
+
+/* main related css */
+
+/* About section css */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 0 130px;
 }
